@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 766px;
+    width: 1599px;
+}
+.back img{
+    height: 766px;
+width: 1599px;
+filter: brightness(0.2);
+position:fixed;
+top: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 383px;
+    width: 24%;
+    border: 1px solid grey;
+    padding: 50px 49.115px;
+    position: relative;
+}
+.upperpara{
+    padding-bottom: 20px;
+    color: #FAAF41;
+    font-size: 24px;
+}
+.lowerpara{
+    color: white;
+    font-size: 18px;
+}
+#box1,#box5,#box6,#box10{
+    flex-basis: 14%;
+}
+#server{
+    height: 166px;
+    width: 166px;
+    color: white;
+    font-size: 49px;
+}
+#box3::before{
+    content: "01";
+    text-decoration: underline;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+#box4::before{
+    content: "02";
+    text-decoration: underline;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+#box7::before{
+    content: "03";
+    text-decoration: underline;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+#box8::before{
+    content: "04";
+    text-decoration: underline;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+#box9::before{
+    content: "05";
+    text-decoration: underline;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+
